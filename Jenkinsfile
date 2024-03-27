@@ -19,15 +19,9 @@ pipeline {
         }
     }
 	post{
-	always{
-	  build 'kk'
-	}
+	    always{
+	       build 'kk'
+	    }
+	    }
 	}
 	
-}
-
-}
-
-	}
-}
-}
