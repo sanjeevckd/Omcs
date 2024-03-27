@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,10 +16,13 @@ public class jenkinClass {
 
 	public class jenkinprogram {
 	  @SuppressWarnings("deprecation")
+	  //@Parameters("Browser")
 	@Test
-	  public void display() {
+	  public void display(String Browser) {
 		  
 		  System.out.println("Welcome jenkin world");
+		  
+		  System.out.println("Gitp psush");
 		  WebDriverManager.chromedriver().setup();
 	        //driver = new ChromeDriver();
 		  //System.setProperty("Webdriver.chrome.driver","C:\\Users\\Dell\\Downloads\\chromedriver_win32\\chromedriver.exe");
@@ -34,5 +38,6 @@ public class jenkinClass {
 		  
 	  }
 	}
-
 }
+
+
