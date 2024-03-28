@@ -23,6 +23,8 @@ public class jenkinClass {
 		  System.out.println("Welcome jenkin world");
 		  
 		  System.out.println("Gitp psushed");
+		  
+		  System.out.println("New changes");
 		  WebDriverManager.chromedriver().setup();
 	        //driver = new ChromeDriver();
 		  //System.setProperty("Webdriver.chrome.driver","C:\\Users\\Dell\\Downloads\\chromedriver_win32\\chromedriver.exe");
