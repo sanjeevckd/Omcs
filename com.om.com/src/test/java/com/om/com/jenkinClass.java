@@ -22,7 +22,7 @@ public class jenkinClass {
 		  
 		  System.out.println("Welcome jenkin world");
 	
-		  System.out.println("Welcome to Sanjeev");
+
 		
 		  WebDriverManager.chromedriver().setup();
 	        //driver = new ChromeDriver();
