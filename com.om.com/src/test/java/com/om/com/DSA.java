@@ -21,7 +21,7 @@ public class DSA {
 	  public void display(String Browser) {
 		  
 		 System.out.println("New file Oms");
-		  
+		 System.out.println("DSA file");
 
 		  WebDriverManager.chromedriver().setup();
 	        //driver = new ChromeDriver();
